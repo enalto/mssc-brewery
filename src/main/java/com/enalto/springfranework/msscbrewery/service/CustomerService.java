@@ -1,4 +1,4 @@
-package com.enalto.springfranework.service;
+package com.enalto.springfranework.msscbrewery.service;
 
 import com.enalto.springfranework.msscbrewery.web.model.CustomerDto;
 

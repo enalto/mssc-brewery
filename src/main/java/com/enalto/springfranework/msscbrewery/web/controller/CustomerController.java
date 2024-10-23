@@ -1,7 +1,7 @@
 package com.enalto.springfranework.msscbrewery.web.controller;
 
 import com.enalto.springfranework.msscbrewery.web.model.CustomerDto;
-import com.enalto.springfranework.service.CustomerService;
+import com.enalto.springfranework.msscbrewery.service.CustomerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

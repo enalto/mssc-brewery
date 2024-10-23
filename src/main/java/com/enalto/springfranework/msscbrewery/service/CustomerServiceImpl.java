@@ -1,4 +1,4 @@
-package com.enalto.springfranework.service;
+package com.enalto.springfranework.msscbrewery.service;
 
 import com.enalto.springfranework.msscbrewery.web.model.CustomerDto;
 import org.springframework.stereotype.Service;
@@ -11,7 +11,7 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public CustomerDto getCustomerById(UUID customerId) {
         return CustomerDto.builder()
-                .id(customerId)
+                .id(UUID.randomUUID())
                 .name("Customer")
                 .build();
     }
